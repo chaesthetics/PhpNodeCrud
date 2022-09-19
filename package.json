@@ -1,0 +1,15 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "For additional knowledge only ",
+  "main": "index5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aurieljamesfernandez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node": "^18.7.0"
+  }
+}
