@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 29, 2021 at 04:35 AM
--- Server version: 10.4.19-MariaDB
--- PHP Version: 8.0.7
+-- Generation Time: Oct 16, 2022 at 05:53 AM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 7.3.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -40,8 +40,17 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`sid`, `sname`, `saddress`, `sclass`, `sphone`) VALUES
-(10, 'ALEK SK', 'Barasat ,Kolkata , 700124', 2, '8967228689'),
-(16, 'ROHAN', 'PLASSEY', 2, '8967228689');
+(56, 'potpotpogi', 'mangatarem', 2, '0902352352'),
+(60, 'Auriel James Vicente Fernandez', 'Pogomlomboy Mangatarem, Pangasinan', 2, '36'),
+(62, 'Mina Tozaki', 'koreaaa', 0, '0923094345'),
+(64, 'Gayle Fernandez', 'Lamut Ifugao', 2, '0980498115'),
+(65, 'Vladimir Putin', 'Russia', 1, '4524234'),
+(70, 'Mama Leni', 'Alabang', 0, '35'),
+(71, 'Wala', 'Diko alam ', 0, '09209021'),
+(73, 'Sana ', 'KOrea aa', 0, '0909090909'),
+(74, 'sasa', 'asas', 0, '23432'),
+(75, 'Aurieljames1', 'pangasinan', 2, '123213'),
+(76, 'wew', 'eqe', 1, 'qew');
 
 -- --------------------------------------------------------
 
@@ -59,10 +68,10 @@ CREATE TABLE `studentclass` (
 --
 
 INSERT INTO `studentclass` (`cid`, `cname`) VALUES
-(1, 'BCA'),
-(2, 'Btech'),
-(3, 'BAC'),
-(4, 'B.com');
+(1, 'BSIT'),
+(2, 'BSBA'),
+(3, 'BSCS'),
+(4, 'BetLOG');
 
 --
 -- Indexes for dumped tables
@@ -88,7 +97,7 @@ ALTER TABLE `studentclass`
 -- AUTO_INCREMENT for table `student`
 --
 ALTER TABLE `student`
-  MODIFY `sid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `sid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
 
 --
 -- AUTO_INCREMENT for table `studentclass`
